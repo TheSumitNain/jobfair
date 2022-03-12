@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.labourdhunde_main {
+    width: 90%;
+    margin: 40px 5% 0 5%;
+    background-color: #282c34;
+    border-radius: 10px;
+}
+
+.labourdhundeform {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section_heading {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    color: #98e1fa;
+}
+
+.row1 {
+    margin: 0 8%;
+}
+
+.row1 div label {
+    font-size: 20px;
+    color: white; 
+}
+
+.row1 div .labourfield {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    color: #7f7f7f;
+
+}
+
+.row2 {
+    margin: 0 8%;
+}
+
+.row2 div label {
+    font-size: 20px;
+    color: white; 
+}
+
+.row2 div .labourfield {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    color: #7f7f7f;
+}
+
+.row3 {
+    margin: 0 8%;
+}
+
+.row3 div label {
+    font-size: 20px;
+    color: white;
+}
+
+.row3 div .myinput {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 0 20px 0;
+    color: #7f7f7f;
+}
+
+.row3 div .radio_btn {
+    margin: 0 10px 0 30px;
+}
+
+.section_bottom {
+    height: 80px;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+.section_bottom div h3 {
+    color: red;
+    font-family: serif;
+    font-weight: 100;
+}
+
+
+.jobdhunde_main .labour_btn {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.labour_btn button {
+    padding: 2px 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: none;
+    /* border-radius: 5px; */
+    font-family:  'monospace';
+    color: black;
+    background-color: #98e1fa;
+    transition: all 0.4s;
+}
+
+.labour_btn button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .labourdhunde_main {
+        width: 95%;
+        margin: 40px 2.5% 0 2.5%;
+    }
+    
+    .labourdhundeform {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .section_heading {
+        height: 80px;
+    }
+    
+    .row1 {
+        margin: 0 6%;
+    }
+    
+    .row1 div label {
+        font-size: 19px;
+        color: white; 
+    }
+    
+    .row1 div .labourfield {
+        font-size: 23px;
+        padding: 8px;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .row2 {
+        margin: 0 6%;
+    }
+    
+    .row2 div label {
+        font-size: 19px;
+        color: white; 
+    }
+    
+    .row2 div .labourfield {
+        font-size: 23px;
+        padding: 8px;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .row3 {
+        margin: 0 6%;
+    }
+    
+    .row3 div label {
+        font-size: 19px;
+    }
+    
+    .row3 div .myinput {
+        font-size: 23px;
+        padding: 8px;
+        border-radius: 5px;
+        margin: 8px 0 20px 0;
+    }
+    
+    .row3 div .radio_btn {
+        margin: 0 10px 0 30px;
+    }
+    
+    .section_bottom {
+        height: 80px;
+        display: flex;
+        justify-content:  space-around;
+        align-items: center;
+    }
+    
+    .section_bottom div h3 {
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    
+    .jobdhunde_main .labour_btn {
+        height: 70px;
+        justify-content: flex-end;
+    }
+    
+    .labour_btn button {
+        padding: 2px 16px;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .labourdhunde_main {
+        width: 85%;
+        margin: 40px 7.5% 25px 7.5%;
+    }
+    
+    .labourdhundeform {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .section_heading {
+        height: 80px;
+    }
+    
+    .row1 {
+        margin: 0 6%;
+    }
+    
+    .row1 div label {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .row1 div .labourfield {
+        font-size: 22px;
+        padding: 7px;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .row2 {
+        margin: 0 6%;
+    }
+    
+    .row2 div label {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .row2 div .labourfield {
+        font-size: 22px;
+        padding: 7px;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+    
+    .row3 {
+        margin: 0 6%;
+    }
+    
+    .row3 div label {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .row3 div .myinput {
+        font-size: 22px;
+        padding: 7px;
+        border-radius: 5px;
+        margin: 8px 0 20px 0;
+    }
+    
+    .row3 div .radio_btn {
+        margin: 0 10px 0 30px;
+    }
+    
+    .section_bottom {
+        height: 100px;
+        display: block;
+        align-items: center;
+    }
+    
+    .section_bottom div h3 {
+        font-weight: 100;
+        font-size: 16px;
+        margin: 10px 30px;
+    }
+       
+    .jobdhunde_main .labour_btn {
+        height: 70px;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    
+    .labour_btn button {
+        padding: 2px 16px;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 479px) {
+    .labourdhunde_main {
+        width: 95%;
+        margin: 40px 2.5% 20px 2.5%;
+    }
+    
+    .labourdhundeform {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .section_heading {
+        height: 60px;
+    }
+    
+    .row1 {
+        margin: 0 6%;
+    }
+    
+    .row1 div label {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .row1 div .labourfield {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .row2 {
+        margin: 0 6%;
+    }
+    
+    .row2 div label {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .row2 div .labourfield {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .row3 {
+        margin: 0 6%;
+    }
+    
+    .row3 div label {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .row3 div .myinput {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 3px;
+        margin: 6px 0 5px 0;
+    }
+    
+    .row3 div .radio_btn {
+        margin: 0 10px 0 30px;
+    }
+    
+    .section_bottom {
+        height: 100px;
+        display: block;
+        align-items: center;
+    }
+    
+    .section_bottom div h3 {
+        font-weight: 100;
+        font-size: 12px;
+        margin: 10px 30px;
+    }
+    
+    
+    .jobdhunde_main .labour_btn {
+        height: 70px;
+        justify-content: flex-end;
+        margin-left: 20px;
+    }
+    
+    .labour_btn button {
+        padding: 2px 10px;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+}

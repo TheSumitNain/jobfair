@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.contactus_main {
+    width: 70%;
+    margin: 0 15% 50px 15%;
+}
+
+.contactus_heading {
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.contactus_heading h1 {
+    color: #696868;
+    font-size: 35px;
+}
+
+.contactus_timing p {
+display: flex;
+justify-content: center;
+align-items: center;
+color: #696868;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+.contactus_link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactus_link p {
+    color: #7f7f7f;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.contactus_link p a {
+    text-decoration: underline;
+    color: #0099CC;
+}
+
+.contactus_link p a:hover {
+    text-decoration: none;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contactus_main {
+        width: 80%;
+        margin: 0 10% 50px 10%;
+    }
+    
+    .contactus_heading {
+        height: 70px;
+    }
+    
+    .contactus_heading h1 {
+        font-size: 30px;
+    }
+    
+    .contactus_timing p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+     
+    .contactus_link p {
+        font-size: 20px;
+        margin: 12px 0;
+    } 
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .contactus_main {
+        width: 80%;
+        margin: 0 10% 40px 10%;
+    }
+    
+    .contactus_heading {
+        height: 60px;
+    }
+    
+    .contactus_heading h1 {
+        font-size: 27px;
+    }
+    
+    .contactus_timing p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .contactus_link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+    .contactus_link p {
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    } 
+
+    .contactus_link p a {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .contactus_main {
+        width: 90%;
+        margin: 0 5% 30px 5%;
+    }
+    
+    .contactus_heading {
+        height: 50px;
+    }
+    
+    .contactus_heading h1 {
+        font-size: 22px;
+    }
+    
+    .contactus_timing p {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .contactus_link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+    .contactus_link p {
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    } 
+
+    .contactus_link p a {
+        font-size: 14px;
+    }
+}

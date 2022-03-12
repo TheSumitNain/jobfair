@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Hubballi&family=Jost:wght@300&family=Neonderthaw&family=Oswald:wght@200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ourvision_main{
+  width: 80%;
+  margin: 80px 10%;
+  padding-bottom: 20px;
+  background-color: #282c34;
+  border-radius: 15px;
+}
+
+.ourvision_heading {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #98e1fa;
+}
+
+.ourvision_describtion p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin: 0 40px 20px 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;   
+    text-align: center;
+    color: aliceblue;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+.ourvision_main{
+    width: 90%;
+    margin: 60px 5%;
+    padding-bottom: 15px;
+    border-radius: 14px;
+  }
+  
+  .ourvision_heading {
+      height: 80px;
+  }
+  
+  .ourvision_describtion p {
+      font-size: 22px;
+      margin: 0 35px 15px 35px;
+      letter-spacing: 2px;
+      word-spacing: 2px;   
+  }
+  
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    
+    .ourvision_main{
+        width: 90%;
+        margin: 40px 5%;
+        padding-bottom: 12px;
+        border-radius: 12px;
+      }
+      
+      .ourvision_heading {
+          height: 60px;
+      }
+      
+      .ourvision_heading h1 {
+          font-size: 25px;
+      }
+
+      .ourvision_describtion p {
+          font-size: 18px;
+          margin: 0 30px 12px 30px;
+          letter-spacing: 2px;
+          word-spacing: 2px;   
+      }
+      
+    }
+
+    
+@media (min-width: 0px) and (max-width: 479px) {
+    
+    .ourvision_main{
+        width: 90%;
+        margin: 40px 5%;
+        padding-bottom: 12px;
+        border-radius: 10px;
+      }
+      
+      .ourvision_heading {
+          height: 50px;
+      }
+      
+      .ourvision_heading h1 {
+          font-size: 20px;
+      }
+
+      .ourvision_describtion p {
+          font-size: 15px;
+          margin: 0 25px 12px 25px;
+          letter-spacing: 2px;
+          word-spacing: 2px;   
+      }
+      
+    }

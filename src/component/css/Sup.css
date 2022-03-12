@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.support_main {
+    width: 50%;
+    margin: 0 25% 50px 25%;
+    padding: 0 10% 20px 5%;
+    background-color: #0099cc;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.support_heading { 
+    width: 100%;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.support_heading h1 {
+    font-size: 35px;
+}
+
+.support_main div {
+    margin: 10px 0;
+}
+
+.support_main div label {
+    font-size: 20px;
+    color: white; 
+}
+
+.support_main div .myfield, textarea {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.support_main div textarea {
+    color: grey;
+    font-size: 15px;
+}
+
+.support_main .support_btn {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.support_btn button {
+    padding: 5px 10px;
+    margin-right: -40px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #0099CC;
+    background-color: white;
+    transition: all 0.4s;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.support_btn button:hover {
+    color: #047ca3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    cursor: pointer;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {    
+.support_main {
+    width: 70%;
+    margin: 0 15% 50px 15%;
+    padding: 0 10% 20px 5%;
+    border-radius: 18px;
+}
+
+.support_heading { 
+    height: 75px;
+}
+
+.support_heading h1 {
+    font-size: 35px;
+}
+
+.support_main div {
+    margin: 10px 0;
+}
+
+.support_main div label {
+    font-size: 20px;
+}
+
+.support_main div .myfield, textarea {
+    width: 100%;
+    font-size: 22px;
+    padding: 9px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.support_main div textarea {
+    font-size: 15px;
+}
+
+.support_main .support_btn {
+    height: 70px;
+    width: 100%;
+}
+
+.support_btn button {
+    padding: 5px 10px;
+    margin-right: -40px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {    
+    .support_main {
+        width: 80%;
+        margin: 0 10% 40px 10%;
+        padding: 0 10% 15px 5%;
+        border-radius: 15px;
+    }
+    
+    .support_heading { 
+        height: 65px;
+    }
+    
+    .support_heading h1 {
+        font-size: 35px;
+    }
+    
+    .support_main div {
+        margin: 9px 0;
+    }
+    
+    .support_main div label {
+        font-size: 18px;
+    }
+    
+    .support_main div .myfield, textarea {
+        width: 100%;
+        font-size: 20px;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 7px;
+    }
+    
+    .support_main div textarea {
+        font-size: 15px;
+    }
+    
+    .support_main .support_btn {
+        height: 60px;
+        width: 100%; 
+    }
+    
+    .support_btn button {
+        padding: 3px 8px;
+        margin-right: -35px;
+        font-size: 25px;
+        border-radius: 4px;
+      }
+    
+    }
+
+    
+@media (min-width: 300px) and (max-width: 479px) {    
+    .support_main {
+        width: 90%;
+        margin: 0 5% 30px 5%;
+        padding: 0 10% 10px 5%;
+        border-radius: 12px;
+    }
+    
+    .support_heading { 
+        height: 55px;
+    }
+    
+    .support_heading h1 {
+        font-size: 32px;
+    }
+    
+    .support_main div {
+        margin: 7px 0;
+    }
+    
+    .support_main div label {
+        font-size: 15px;
+    }
+    
+    .support_main div .myfield, textarea {
+        width: 100%;
+        font-size: 18px;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .support_main div textarea {
+        font-size: 15px;
+    }
+    
+    .support_main .support_btn {
+        height: 50px;
+        width: 100%; 
+    }
+    
+    .support_btn button {
+        padding: 3px 8px;
+        margin-right: -25px;
+        font-size: 22px;
+        border-radius: 3px;
+      }
+    
+    }
+
+       
+@media (min-width: 0px) and (max-width: 299px) {    
+    .support_main {
+        width: 90%;
+        margin: 0 5% 30px 5%;
+        padding: 0 10% 10px 5%;
+        border-radius: 12px;
+    }
+    
+    .support_heading { 
+        height: 55px;
+    }
+    
+    .support_heading h1 {
+        font-size: 30px;
+    }
+    
+    .support_main div {
+        margin: 7px 0;
+    }
+    
+    .support_main div label {
+        font-size: 15px;
+    }
+    
+    .support_main div .myfield, textarea {
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .support_main div textarea {
+        font-size: 14px;
+    }
+    
+    .support_main .support_btn {
+        height: 50px;
+        width: 100%; 
+    }
+    
+    .support_btn button {
+        padding: 3px 8px;
+        margin-right: -15px;
+        font-size: 20px;
+        border-radius: 3px;
+      }
+    
+    }

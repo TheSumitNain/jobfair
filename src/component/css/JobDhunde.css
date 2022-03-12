@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jobdhunde_main {
+    margin: 50px 10% 50px 10%;
+    padding: 0 5% 50px 5%;
+    background-color: #282c34;
+    border-radius: 10px;
+}
+
+.jobdhunde_heading {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    color: #98e1fa;
+}
+
+.jobdhunde_heading h1 {
+    font-size: 35px;
+}
+
+.jobform {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_first {
+    width: 50%;
+}
+
+.col_second {
+    width: 35%;
+    padding-top: 20px;
+    margin-left: 15%;
+}
+
+.jobform .col_first div {
+margin: 10px 0;
+}
+
+.jobform .col_first div label {
+    font-size: 20px;
+    color: white; 
+}
+
+.jobform .col_first div .myinput {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: #7f7f7f;
+}
+
+.error {
+    color: #ff3333;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+
+.jobform .col_second div {
+    margin: 20px 0;
+    }
+    
+    .jobform .col_second div label {
+        font-size: 20px;
+        color: white; 
+    }
+
+    .jobform .col_second div .radio_btn{
+        margin: 0 10px 0 30px;
+    }
+
+
+.jobdhunde_main .job_btn {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.job_btn button {
+    padding: 2px 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: -150px;
+    border: none;
+    /* border-radius: 5px; */
+    font-family:  'monospace';
+    color: black;
+    background-color: #98e1fa;
+    transition: all 0.4s;
+}
+
+.job_btn button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .jobdhunde_main {
+        margin: 50px 5% 50px 5%;
+        padding: 0 5% 50px 5%;
+        border-radius: 10px;
+    }
+    
+    .jobdhunde_heading {
+        width: 100%;
+        height: 80px;
+    }
+    
+    .jobdhunde_heading h1 {
+        font-size: 35px;
+    }
+    
+    .jobform {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .col_first {
+        width: 50%;
+    }
+    
+    .col_second {
+        width: 35%;
+        padding-top: 20px;
+        margin-left: 15%;
+    }
+    
+    .jobform .col_first div {
+    margin: 10px 0;
+    }
+    
+    .jobform .col_first div label {
+        font-size: 20px;
+    }
+    
+    .jobform .col_first div .myinput {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+    
+    .error {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 5px;
+    }
+    
+    .jobform .col_second div {
+        margin: 20px 0;
+        }
+        
+        .jobform .col_second div label {
+            font-size: 20px;
+        }
+    
+        .jobform .col_second div .radio_btn{
+            margin: 0 10px 0 30px;
+        }
+    
+    
+    .jobdhunde_main .job_btn {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .job_btn button {
+        padding: 2px 10px;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-bottom: -150px;
+    }
+   
+}
+
+
+
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .jobdhunde_main {
+        margin: 20px 10% 20px 10%;
+        padding: 0 7% 5px 7%;
+        border-radius: 10px;
+    }
+    
+    .jobdhunde_heading {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .jobdhunde_heading h1 {
+        font-size: 35px;
+    }
+    
+    .jobform {
+        display: block;
+    }
+    
+    .col_first {
+        width: 100%;
+    }
+    
+    .col_second {
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 5%;
+    }
+    
+    .jobform .col_first div {
+    margin: 10px 0;
+    }
+    
+    .jobform .col_first div label {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .jobform .col_first div .myinput {
+        width: 100%;
+        font-size: 25px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+    
+    .error {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 5px;
+    }
+    
+    .jobform .col_second div {
+        margin: 20px 0;
+        }
+        
+        .jobform .col_second div label {
+            font-size: 20px;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+        }
+    
+        .jobform .col_second div .radio_btn{
+            margin: 0 10px 0 20px;
+        }
+    
+    
+    .jobdhunde_main .job_btn {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 40px;
+        
+    }
+    
+    .job_btn button {
+        padding: 2px 8px;
+        font-size: 27px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+   
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 479px) {
+
+    .jobdhunde_main {
+        margin: 20px 5% 20px 5%;
+        padding: 0 5% 5px 5%;
+        border-radius: 10px;
+    }
+    
+    .jobdhunde_heading {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .jobdhunde_heading h1 {
+        font-size: 30px;
+    }
+    
+    .jobform {
+        display: block;
+    }
+    
+    .col_first {
+        width: 100%;
+    }
+    
+    .col_second {
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 0%;
+    }
+    
+    .jobform .col_first div {
+    margin: 10px 0;
+    }
+    
+    .jobform .col_first div label {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    
+    .jobform .col_first div .myinput {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+    
+    .error {
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 5px;
+    }
+    
+    .jobform .col_second div {
+        margin: 15px 0;
+        }
+        
+        .jobform .col_second div label {
+            font-size: 16px;
+            letter-spacing: 1px;
+            word-spacing: 0px;
+        }
+    
+        .jobform .col_second div .radio_btn{
+            margin: 0 5px 0 10px;
+        }
+    
+    
+    .jobdhunde_main .job_btn {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+        
+    }
+    
+    .job_btn button {
+        padding: 2px 8px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+   
+}
