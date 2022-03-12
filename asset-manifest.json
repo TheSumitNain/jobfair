@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jobfair/static/css/main.c6312a25.css",
+    "main.js": "/jobfair/static/js/main.f03d0140.js",
+    "static/media/pic.png": "/jobfair/static/media/pic.4425e33e2fedd27b23c7.png",
+    "index.html": "/jobfair/index.html",
+    "main.c6312a25.css.map": "/jobfair/static/css/main.c6312a25.css.map",
+    "main.f03d0140.js.map": "/jobfair/static/js/main.f03d0140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6312a25.css",
+    "static/js/main.f03d0140.js"
+  ]
+}
